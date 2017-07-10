@@ -22,5 +22,7 @@ class TestMinedMindsKataArrayTest < Minitest::Test
 	def test_fifteen_number
 		assert_equal("mined minds", sequence[14])
 	end	
-
+	def test_30_number
+		assert_equal("mined minds", sequence[29])
+	end
 end
